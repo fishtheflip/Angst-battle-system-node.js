@@ -1,0 +1,117 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pag{
+    display: flex;
+    flex-direction: column;
+    
+}    
+.pag-field{
+    display: flex;
+    
+}
+.names{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+/* .bboy-name:first-child{
+    margin-right: 70px;
+} */
+.ang{
+    height: 100px;
+    width: 100px;
+}
+#wrong{
+    margin-left: -1px;
+}
+/* .pag:first-child{
+    margin-right: 5px;
+}
+.pag:last-child{
+    margin-left: 5px;
+} */
+.tie{
+    width: 120px;
+}
+.next-field{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.last-btn:first-child{
+    margin-right: 5px;
+   }
+   .last-btn:last-child{
+       margin-left: 5px;
+   }
+
+.tab-a{
+    background-color:#F47C7C;
+}
+.tab-b{
+    background-color:#70A1D7;
+}
+/* .tab-def{
+    background-color:#E3E3E3;
+} */
+.pag a{
+    text-align: center;
+}
+.battle-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no-battles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.middle-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.winner-res{
+    border-bottom: 3px solid #593196;
+}
+.score{
+    display: flex;
+}
+.main-score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-block{
+    margin: 2em auto;
+    padding: 1em;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.main-bat{
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.main-form{
+    width: 80%;
+    max-width: 550px;
+    margin: 3em auto;
+    padding: 1em;
+    box-shadow:
+     0 0 0 7px #756bb1,
+     0 0 0 14px #bcbddc,
+     0 0 0 21px #efedf5;
+}
+.shadow{
+    border: 1px solid #ccc;
+  box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+}

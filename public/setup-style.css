@@ -1,0 +1,12 @@
+.set-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: tomato;
+}
+h6{
+    color: blueviolet
+}

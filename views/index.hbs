@@ -1,0 +1,57 @@
+
+       <form action="/angsyst/edit" method="POST" class="main-form">
+        <div class="cont">
+            <h1>Round </h1>
+            
+            <div class="names">
+                <input type="text" hidden name="id" value="{{battle.id}}" >
+                <div class="bboy-name" name="bboyRed"><span>{{battle.red}}</span></div>
+                <input type="text" hidden name="bboyRed" value="{{battle.red}}" >
+                <div class="bboy-name"  name="bboyBlue"><span>{{battle.blue}}</span></div>
+                <input type="text" hidden name="bboyBlue" value="{{battle.blue}}" >
+                <input  type="text" hidden name="rounds" value="{{battle.rounds}}" >
+            </div>
+            <div class="pag-field">
+                <ul class="pagination pagination-lg pag">
+                    <li class="page-item ">
+                        <a class="page-link el-a a1 ang " id="wrong" href="#" onclick="takeA('a1')" >⬅️</a>
+                        <input class='va1 va' type="text" hidden name="a1" value="false" >
+                    </li>
+                    <li class="page-item">
+                    <a class="page-link el-a a2 ang" href="#" onclick="takeA('a2')">⬅️</a>
+                    <input class='va2 va' type="text" hidden name="a2" value="false" >
+                    </li>
+                    <li class="page-item">
+                    <a class="page-link el-a a3 ang" href="#" onclick="takeA('a3')">⬅️</a>
+                    <input class='va3 va' type="text" hidden name="a3" value="false" >
+                </ul>
+
+                <ul class="pagination pagination-lg pag">
+                    <li class="page-item ">
+                    <a class="page-link el-b b1 ang" id="wrong" href="#" onclick="takeB('b1')">➡️</a>
+                    <input class='vb1 vb' type="text" hidden name="b1" value="false" >
+                    </li>
+                    <li class="page-item">
+                    <a class="page-link el-b b2 ang" href="#" onclick="takeB('b2')">➡️</a>
+                    <input class='vb2 vb' type="text" hidden name="b2" value="false" >
+                    </li>
+                    <li class="page-item">
+                    <input class='vb3 vb' type="text" hidden name="b3" value="false" >    
+                    <a class="page-link el-b b3 ang" href="#" onclick="takeB('b3')">➡️</a>
+                    
+                </ul>
+                
+            </div>
+            <div class="tie-field">
+                <button type="button" class="btn btn-info tie" onclick="fullTie()">Full Tie</button>
+            </div>
+            <div class="next-field">
+                <button type="button" class="btn btn-warning last-btn" onclick="resetField()">Reset</button>
+                <button type="submit" class="btn btn-success last-btn">Next</button>
+            </div>
+            
+        </div>
+
+        </form>
+        
+
