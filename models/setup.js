@@ -5,8 +5,8 @@ const { v4: uuidv4 } = require('uuid');
 
 class Setup{
     constructor(red, blue, rounds, id){
-        this.red= red;
-        this.blue =blue;
+        this.red = red;
+        this.blue = blue;
         this.rounds = rounds;
         this.id = uuidv4();
     }

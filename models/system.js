@@ -14,7 +14,7 @@ class SysemAng {
         this.b1 = b1;
         this.b2 = b2;
         this.b3 = b3;
-        this.aa1 =  0;
+        this.aa1 = 0;
         this.aa2 = 0;
         this.aa3 = 0;
         this.bb1 = 0;

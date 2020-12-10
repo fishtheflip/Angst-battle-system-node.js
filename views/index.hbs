@@ -1,8 +1,8 @@
 
        <form action="/angsyst/edit" method="POST" class="main-form">
         <div class="cont">
-            <h1>Round </h1>
-            
+            <h1>Round {{counter}} </h1>
+            <input type="text" hidden name="counter" value="{{counter}}" >
             <div class="names">
                 <input type="text" hidden name="id" value="{{battle.id}}" >
                 <div class="bboy-name" name="bboyRed"><span>{{battle.red}}</span></div>
